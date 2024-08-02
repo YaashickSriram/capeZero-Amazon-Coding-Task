@@ -3,8 +3,8 @@
 ## Folder Structure
 
 
-
-## Test File: newAmz.spec.ts
+## Test File :
+newAmz.spec.ts
 
 ## How to Run the Tests
  Command : npx playwright test newAmz.spec.ts --headed --project=chromium
