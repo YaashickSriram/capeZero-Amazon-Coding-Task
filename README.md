@@ -1,7 +1,30 @@
 # Amazon Automation Test Project
 
 ## Folder Structure
-
+AUTOMATIONPLAY
+├── .github
+│ └── workflows
+│ └── <yaml file>
+├── configs
+│ └── .env
+├── node_modules
+├── playwright-reports
+├── src
+│ ├── configs
+│ ├── Logs
+│ ├── ScreenShots
+│ └── Utils
+│ ├── CryptoJS.ts
+│ └── logger.ts
+├── tests
+│ ├── PageObject
+│ │ ├── amazPageObj.ts
+│ │ ├── ProductPage.ts
+│ │ └── HomePage.ts
+│ └── newAmz.spec.ts
+├── package-lock.json
+├── package.json
+└── playwright.config.ts
 
 ## Test File :
 newAmz.spec.ts
